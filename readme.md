@@ -14,9 +14,15 @@ My small repository of me trying to learn Go programming language!
 - imports
 - concurrency (GO go)
 - concurrency workers
+- converting strings to other types
+- reading from file
 
 ## Imports I used
 - fmt
 - time
 - math
 - math/rand
+- os
+- bufio
+- strings
+- strconv
