@@ -16,7 +16,7 @@ My small repository of me trying to learn Go programming language as fast as I c
 - functions (func)
 - imports
 - converting number type variables
-- math functions (sqrt/ceil/round etc.)
+- math functions (sqrt/ceil/round/pow etc.)
 - concurrency (GO go)
 - concurrency workers
 - converting strings to other types

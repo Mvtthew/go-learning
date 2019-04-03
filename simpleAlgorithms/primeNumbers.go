@@ -13,7 +13,7 @@ func main() {
 
 		i = nextPrimary(i + 1)
 
-		fmt.Println("Next prime is: ", i, "(click enter for next prime / hold enter for series of primes)")
+		fmt.Println("Next prime is: ", i, "(click / hold enter for next prime)")
 		fmt.Scanln()
 
 	}
