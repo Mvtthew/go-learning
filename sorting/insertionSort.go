@@ -2,8 +2,8 @@ package main
 
 import (
 	"math/rand"
-	"fmt"
 	"time"
+	"fmt"
 )
 
 func main() {
@@ -20,13 +20,21 @@ func main() {
 	fmt.Println(tab)
 
 	for i := 0; i < 10; i++ {
-		for j := 1; j < 10 - i; j ++ {
-			if tab[j - 1] > tab[j] {
-				tmp := tab[j - 1]
-				tab[j - 1] = tab[j]
-				tab[j] = tmp
+
+		minIndex := i
+
+		for j := i; j < 10; j ++ {
+
+			if tab[j] < tab[minIndex] {
+				minIndex = j
 			}
+
 		}
+
+		tmp := tab[i]
+		tab[i] = tab[minIndex]
+		tab[minIndex] = tmp
+
 	}
 
 	fmt.Println("After")
