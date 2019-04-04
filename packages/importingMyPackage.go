@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-learning/packages/myPackage"
+	"github.com/mvtthew/go-learning/packages/myPackage"
 	"fmt"
 )
 
