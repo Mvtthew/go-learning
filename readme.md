@@ -21,6 +21,8 @@ My small repository of me trying to learn Go programming language as fast as I c
 - concurrency workers
 - converting strings to other types
 - reading from file
+- creating my own package
+- structs and methods
 
 ## Imports I already used
 - fmt
@@ -31,3 +33,4 @@ My small repository of me trying to learn Go programming language as fast as I c
 - bufio
 - strings
 - strconv
+- **created by my own!**
