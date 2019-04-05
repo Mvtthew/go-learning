@@ -6,18 +6,7 @@ import (
 	"time"
 )
 
-func main() {
-
-	random := rand.New(rand.NewSource(time.Now().UnixNano()))
-
-	var tab [10]int
-
-	for i := 0; i < 10; i++ {
-		tab[i] = random.Intn(10)
-	}
-
-	fmt.Println("Before")
-	fmt.Println(tab)
+func bubble(tab *[10]int)  {
 
 	for i := 0; i < 10; i++ {
 
@@ -32,6 +21,23 @@ func main() {
 		}
 
 	}
+
+}
+
+func main() {
+
+	random := rand.New(rand.NewSource(time.Now().UnixNano()))
+
+	var tab [10]int
+
+	for i := 0; i < 10; i++ {
+		tab[i] = random.Intn(10)
+	}
+
+	fmt.Println("Before")
+	fmt.Println(tab)
+
+	bubble(&tab)
 
 	fmt.Println("After")
 	fmt.Println(tab)
